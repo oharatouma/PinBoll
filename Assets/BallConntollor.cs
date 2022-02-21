@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class BallConntollor : MonoBehaviour
 {     //ボールが見える可能性のあるz軸の最小値
     private float visiblePosZ = -6.5f;

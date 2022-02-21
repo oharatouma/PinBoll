@@ -30,7 +30,7 @@ public class FripperContoroller : MonoBehaviour
         {
             SetAngle(this.defaultAngle);
         }
-        if (Input.GetKeyUp(KeyCode.LeftArrow) && tag == "RightFripperTag")
+        if (Input.GetKeyUp(KeyCode.RightArrow) && tag == "RightFripperTag")
         {
             SetAngle(this.defaultAngle);
         }
